@@ -1,0 +1,31 @@
+{
+  "name": "jaychou",
+  "version": "0.0.1",
+  "description": "a lerna demo",
+  "keywords": [
+    "lenra",
+    "bili"
+  ],
+  "author": "Vicen Law <vicenlaw@gmail.com>",
+  "homepage": "https://github.com/VicenLaw/lerna-demo",
+  "license": "MIT",
+  "main": "./dist/lerna-demo.min.js",
+  "module": "./dist/lerna-demo.min.js",
+  "unpkg": "./dist/lerna-demo.min.js",
+  "jsdelivr": "./dist/lerna-demo.min.js",
+  "scripts": {
+    "clean": "rimraf dist/",
+    "bili": "bili",
+    "build": "npm-run-all clean bili"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VicenLaw/lerna-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VicenLaw/lerna-demo/issues"
+  }
+}

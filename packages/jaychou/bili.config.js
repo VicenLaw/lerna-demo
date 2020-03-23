@@ -11,7 +11,7 @@ module.exports = {
   },
   output: {
     format: ['umd', 'umd-min'],
-    moduleName: '@vicenlaw/lerna-demo',
+    moduleName: 'lerna-demo',
     fileName: 'lerna-demo[min].js',
     extractCSS: false
   },

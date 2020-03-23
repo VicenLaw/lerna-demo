@@ -1,8 +1,3 @@
-'use strict';
-
-module.exports = lernaDemo;
-
-function lernaDemo() {
-    // TODO
-    console.log('Jay Chou');
+export default function lernaDemo() {
+  console.log('jay chou');
 }

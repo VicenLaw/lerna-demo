@@ -8,5 +8,8 @@
     "bili": "^4.8.1",
     "lerna": "^3.20.2",
     "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "jaychou": "0.0.1"
   }
 }

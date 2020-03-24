@@ -27,7 +27,7 @@
     "src",
     "types",
     "dist"
-],
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/VicenLaw/lerna-demo.git"

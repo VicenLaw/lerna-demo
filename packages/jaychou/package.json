@@ -1,11 +1,12 @@
 {
   "name": "jaychou",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "private": false,
-  "description": "a lerna demo",
+  "description": "a lerna demo about jaychou",
   "keywords": [
     "lerna",
-    "bili"
+    "bili",
+    "jaychou"
   ],
   "author": "Vicen Law <vicenlaw@gmail.com>",
   "homepage": "https://github.com/VicenLaw/lerna-demo",
@@ -20,8 +21,13 @@
     "build": "npm-run-all clean bili"
   },
   "files": [
-    "lib"
-  ],
+    "README.md",
+    "package.json",
+    "LICENSE",
+    "src",
+    "types",
+    "dist"
+],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/VicenLaw/lerna-demo.git"

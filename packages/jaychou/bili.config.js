@@ -10,10 +10,8 @@ module.exports = {
     version
   },
   output: {
-    format: ['umd', 'umd-min'],
-    moduleName: 'lerna-demo',
-    fileName: 'lerna-demo[min].js',
-    extractCSS: false
+    format: ['es', 'es-min'],
+    fileName: 'lerna-demo[min].js'
   },
   input: join(cwd, '/src/index.js')
 };
